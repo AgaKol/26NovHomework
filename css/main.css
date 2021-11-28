@@ -1,0 +1,85 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+#form-wrapper {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.form-item {
+    margin: 15px;
+}
+
+button, input[type="submit"] {
+    margin-top: 15px;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    background-color: olivedrab;
+    color: white;
+}
+input[type="submit"]:hover {
+    background-color:green;
+}
+button {
+    background-color: orangered;
+    color: white;
+}
+button:hover {
+    background-color: red
+}
+
+#bucket-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+header {
+    margin: 0px;
+    color: white;
+    font-size: 30px;
+    background-color: olivedrab;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Prompt', sans-serif;
+}
+#bucket-header {
+    margin-top: 50px;
+}
+#new-experience-form {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: olivedrab;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    position: fixed;
+    margin-top: 50px;
+}
+i {
+    margin-right: 20px;
+}
+li {
+    margin: 20px;
+    margin-bottom: 150px;
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 12px;
+}
